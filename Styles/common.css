@@ -1,0 +1,26 @@
+* {
+    font-family: verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+li {
+    padding: 5px 0 5px 25px;
+}
+
+ul.stripes {
+  list-style: none;
+}
+
+.stripes li:nth-last-child(even){
+    background: red;
+    color: white;
+}
+
+.formWrap {
+    
+}
