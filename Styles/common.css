@@ -22,5 +22,13 @@ ul.stripes {
 }
 
 .formWrap {
-    
+
+}
+
+td {
+    padding:5px;
+}
+
+td:first-child {
+    color: red;
 }
