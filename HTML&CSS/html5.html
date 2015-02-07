@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html5 test</title>
+    <meta charset="utf-8"/>
+</head>
+<body id="body">
+<header>
+    <h1>HTML5</h1>
+    <link rel="stylesheet" href="style.css"/>
+</header>
+<section>
+    <article>
+        <h2>
+            Super article1
+        </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corporis dignissimos ducimus eveniet
+                exercitationem expedita id impedit laboriosam magni molestiae, natus necessitatibus nemo perferendis
+                quam quidem ut velit vitae voluptatum.
+            </p>
+    </article>
+    <article>
+        <h2>
+            Super article2
+        </h2>
+        <details>
+            <p contenteditable="true">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corporis dignissimos ducimus eveniet
+                exercitationem expedita id impedit laboriosam magni molestiae, natus necessitatibus nemo perferendis
+                quam quidem ut velit vitae voluptatum.
+            </p>
+        </details>
+    </article>
+    <datalist id="names">
+        <option value="Andy"></option>
+        <option value="Dick"></option>
+        <option value="Linda"></option>
+    </datalist>
+    <aside>
+        <h2>
+            Последние новости
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet, details adipisicing elit. Alias animi aperiam autem,
+            commodi dolorem enim error explicabo quas ut veritatis. Accusamus aliquid cum deleniti
+            iure nam neque nostrum, odit quas.
+        </p>
+    </aside>
+    <form action="#">
+        <label for="name">Имя</label>
+        <input name="name" type="text" placeholder="Rainman" required="required" autocomplete="autocomplete" pattern="[a-z]+" list="names"/>
+        <br/>
+        <label for="mail">Mail</label>
+        <input type="email" name="mail"/>
+        <br/>
+        <label for="usability">Usability</label>
+        <input type="range" name="usability" min="0" max="100" value="50" step="1"/>
+        <br/>
+        <input type="date"/>
+        <input type="color" id="color"/>
+        <br/>
+        <label for="num">Number</label>
+        <input type="number" name="num" min="10" max="50" value="15" step="5"/>
+        <input type="submit" onclick="setColor()"/>
+    </form>
+    <dialog>
+        <h3>Мини чат</h3>
+        <hr/>
+        <dt>Василий</dt>
+        <dd>Как дела?</dd>
+        <dt>Федор</dt>
+        <dd>Отлично!</dd>
+    </dialog>
+</section>
+
+<footer>
+    <section>
+        <p>Готовность <a href="style.css" download="style"> сайта </a><meter min="0" max="100" value="50">50%</meter></p>
+        <span>Armen Petrosyan</span>
+    </section>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
